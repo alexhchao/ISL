@@ -48,6 +48,7 @@ import statsmodels.formula.api as smf
 
 df = credit.copy()
 df
+
 model = smf.ols("Balance ~ C(Gender)", data=df).fit()
 
 model.summary()
@@ -80,7 +81,7 @@ smf.ols('Sales ~ Radio * TV', data=df).fit().summary()
 
 df_credit = credit.copy()
 
-smf.ols('Balance ~ Income + C(Student)', data=df_credit).fit().summary()
+model = smf.ols('Balance ~ Income + C(Student)', data=df_credit).fit()
 
 
 model = smf.ols('Balance ~ Income + C(Student) + Income * C(Student)', data=df_credit).fit()
@@ -108,6 +109,26 @@ student_vs_non_student.plot()
 
 #### Non linear relationships
 
+auto = pd.read_csv('./data/Auto.csv')
+
+auto.horsepower.hist()
+
+auto[auto=='?'] = np.NaN
+
+# need to get scatter plot to work!
+
+
+auto.horsepower[auto.horsepower=='?'] = np.NaN
+
+auto.loc[:,['horsepower','mpg']].plot(kind='scatter')
+
+ax = sns.regplot(x=auto['horsepower'], y=auto['mpg'], fit_reg=False)
+
+
+plt.scatter(auto.horsepower, auto.mpg, facecolors='None', edgecolors='k', alpha=.5)
+
+
+plt.scatter(auto.horsepower.sort_values(), auto.mpg, facecolors='None', edgecolors='k', alpha=.5)
 
 
 
