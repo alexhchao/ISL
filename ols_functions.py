@@ -36,6 +36,7 @@ def plot_fitted_vs_resids(model):
     """
     if not isinstance(model, sm.regression.linear_model.RegressionResultsWrapper):
         raise ValueError("model is not a statsmodels model!")
+
     ax = sns.regplot(x = model.fittedvalues, y=model.resid, lowess = True)
     ax.set(xlabel='Fitted values', ylabel='Residuals')
     plt.show()
@@ -65,3 +66,20 @@ def variance_inflation_factors(exog_df):
         name='VIF'
     )
     return vifs
+
+
+def mse(model):
+    """
+    
+    Parameters
+    ----------
+    model
+
+    Returns
+    -------
+    MSE - float
+    """
+    if not isinstance(model, sm.regression.linear_model.RegressionResultsWrapper):
+        raise ValueError("model is not a statsmodels model!")
+
+    return (model.resid**2).mean()
