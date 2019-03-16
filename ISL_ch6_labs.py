@@ -4,20 +4,29 @@
 
 import pandas as pd
 import numpy as np
+
+import matplotlib
+matplotlib.use("TkAgg")  # Do this before importing pyplot!
 import matplotlib.pyplot as plt
+# https://stackoverflow.com/questions/49918998/plt-show-not-working-in-pycharm
+
+#import matplotlib.pyplot as plt
+
 import seaborn as sns
+sns.set()
 pd.options.display.float_format = '{:,.4f}'.format
 float_formatter = lambda x: "%.2f" % x
 np.set_printoptions(formatter={'float_kind':float_formatter})
 
 pd.options.display.max_rows = 10
 pd.options.display.max_columns = 20
+#plt.interactive(True)
 
-import glmnet as gln
-from glmnet import ElasticNet
+#import glmnet as gln
+#from glmnet import ElasticNet
 # image not found
-import glmnet_python
-from glmnet import glmnet
+#import glmnet_python
+#from glmnet import glmnet
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import scale
@@ -34,6 +43,8 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 from statsmodels.tools.tools import add_constant
 
+from ols_functions import replace_with_dummies
+
 #%matplotlib inline
 #plt.style.use('seaborn-white')
 
@@ -41,6 +52,8 @@ from statsmodels.tools.tools import add_constant
 df = pd.read_csv('Data/Hitters.csv', index_col=0).dropna()
 df.index.name = 'Player'
 df.info()
+
+df.Hits.hist()
 
 #df.query(" Salary.notnull() ", engine='python')
 #df.query(" Salary.isnull() ", engine='python')
@@ -58,8 +71,6 @@ _df
 
 y = _df['Salary']
 X = _df.drop('Salary', axis=1)
-
-
 
 smf.OLS(y, add_constant(X)).fit(data = _df).summary()
 # works! with pandas 0.20.2
@@ -126,22 +137,7 @@ plt.title('Lasso coefficients as a function of the regularization');
 
 
 ######################
+#plt.show(block=True)
 
-
-
-def replace_with_dummies(df, categorical_cols):
-    """
-    
-    Parameters
-    ----------
-    df
-    categorical_cols
-
-    Returns
-    -------
-
-    """
-    _dummies = pd.get_dummies(df.loc[:,categorical_cols ])
-
-    return pd.concat([df.drop(categorical_cols, axis=1), _dummies],axis=1)
+df.Hits.hist()
 

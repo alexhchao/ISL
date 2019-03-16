@@ -22,6 +22,25 @@ import statsmodels.formula.api as smf
 from statsmodels.regression.linear_model import OLS
 from statsmodels.tools.tools import add_constant
 
+
+def replace_with_dummies(df, categorical_cols):
+    """
+
+    Parameters
+    ----------
+    df
+    categorical_cols
+
+    Returns
+    -------
+
+    """
+    _dummies = pd.get_dummies(df.loc[:, categorical_cols])
+
+    return pd.concat([df.drop(categorical_cols, axis=1), _dummies], axis=1)
+
+
+
 def plot_fitted_vs_resids(model):
     """
     plots fitted vs resids plot
