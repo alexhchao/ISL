@@ -23,21 +23,95 @@ from statsmodels.regression.linear_model import OLS
 from statsmodels.tools.tools import add_constant
 
 
-def replace_with_dummies(df, categorical_cols):
+def plot_pred_vs_actual(pred, actual):
+    """
+
+    Parameters
+    ----------
+    pred
+    actual
+
+    Returns
+    -------
+
+    """
+    plt.scatter(pred, actual, label='medv')
+    plt.plot([0, 1], [0, 1], '--k', transform=plt.gca().transAxes)
+    plt.xlabel('pred')
+    plt.ylabel('actual')
+
+
+
+
+
+def zscore_but_ignore_binary_cols(df,
+                                  func_to_apply=zscore):
+    """
+    returns column zscores but keeps binary variables intact
+
+    Parameters
+    ----------
+    df
+
+    Returns
+    -------
+
+    """
+    _df = df.copy()
+
+    list_bin_cols = [c for c in _df.columns if is_binary(_df[c])]
+
+    df_numeric = _df.loc[:, [c for c in _df.columns if c not in list_bin_cols]]
+    df_binaries = _df.loc[:, list_bin_cols]
+    return pd.concat([df_numeric.apply(func_to_apply, axis=0),
+                      df_binaries], axis=1)
+
+
+def is_binary(_series):
+    """
+    checks to see if a series is binary
+    Parameters
+    ----------
+    _series
+
+    Returns
+    -------
+
+    """
+    return list(set(_series)) == [0, 1]
+
+def replace_with_dummies(df, categorical_cols,
+                         leave_one_out = True):
     """
 
     Parameters
     ----------
     df
     categorical_cols
+    leave_one_out = for each categorical col, leave one out
 
     Returns
     -------
 
     """
-    _dummies = pd.get_dummies(df.loc[:, categorical_cols])
+    _df = df.copy()
 
-    return pd.concat([df.drop(categorical_cols, axis=1), _dummies], axis=1)
+    if leave_one_out:
+
+        _all_dums = []
+        for c in categorical_cols:
+
+            _d_df = pd.get_dummies(_df[c]).iloc[:, 1:]
+            _d_df.columns = c + '_' + _d_df.columns
+            _all_dums.append(_d_df)
+
+        _dummies = pd.concat(_all_dums, axis=1)
+        #_dummies = pd.concat([pd.get_dummies(
+            #df[c]).iloc[:, 1:] for c in categorical_cols], axis=1)
+    else:
+        _dummies = pd.get_dummies(_df.loc[:, categorical_cols])
+
+    return pd.concat([_df.drop(categorical_cols, axis=1), _dummies], axis=1)
 
 
 
