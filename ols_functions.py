@@ -23,6 +23,52 @@ from statsmodels.regression.linear_model import OLS
 from statsmodels.tools.tools import add_constant
 
 
+def ols_get_coefs(X, y, w=None):
+    """
+    (X'X)-1 * (X.T * y)
+
+    Parameters
+    ----------
+    X
+    y
+
+    Returns
+    -------
+
+    """
+    if w is not None:
+        return np.linalg.inv(X.T.dot(w).dot(X)).dot(X.T.dot(w).dot(y))
+    else:
+        return np.linalg.inv(X.T.dot(X)).dot(X.T.dot(y))
+
+# calc VIF
+def variance_inflation_factors(exog_df):
+    '''
+    credit to : https://stackoverflow.com/questions/42658379/variance-inflation-factor-in-python
+    
+    Parameters
+    ----------
+    exog_df : dataframe, (nobs, k_vars)
+        design matrix with all explanatory variables, as for example used in
+        regression.
+
+    Returns
+    -------
+    vif : Series
+        variance inflation factors
+    '''
+    exog_df = sm.add_constant(exog_df)
+    vifs = pd.Series(
+        [1 / (1. - sm.OLS(exog_df[col].values,
+                   exog_df.loc[:, exog_df.columns != col].values).fit().rsquared)
+         for col in exog_df],
+        index=exog_df.columns,
+        name='VIF'
+    )
+    return vifs
+
+
+
 def plot_pred_vs_actual(pred, actual):
     """
 

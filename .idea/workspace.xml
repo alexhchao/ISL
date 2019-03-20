@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a93df80-009a-4fa9-860d-b470918ea919" name="Default" comment="replace with dummies moved to functions">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ISL.iml" afterPath="$PROJECT_DIR$/.idea/ISL.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="4a93df80-009a-4fa9-860d-b470918ea919" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb" afterPath="$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ols_functions.py" afterPath="$PROJECT_DIR$/ols_functions.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,7 +75,7 @@
             <entry file="file://$PROJECT_DIR$/0 startup scripts.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="486">
-                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
                   </folding>
@@ -104,11 +103,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ISL_ch_3_linear_regression.ipynb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ISL_ch_3_linear_regression.ipynb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ISL_ch_3_linear_regression.ipynb">
               <provider selected="true" editor-type-id="ipnb-editor">
                 <state>
-                  <selected id="5" />
+                  <selected id="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ISL_ch3_linar_regression_revisit.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="929">
+                  <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#51#70#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -120,8 +131,8 @@
           <file leaf-file-name="ols_functions.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ols_functions.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                <state relative-caret-position="1107">
+                  <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -150,8 +161,9 @@
         <option value="$PROJECT_DIR$/ISL_ch5_soln.py" />
         <option value="$PROJECT_DIR$/ISL_ch_3_linear_regression.ipynb" />
         <option value="$PROJECT_DIR$/ISL_ch6_labs.py" />
-        <option value="$PROJECT_DIR$/ols_functions.py" />
         <option value="$PROJECT_DIR$/0 startup scripts.py" />
+        <option value="$PROJECT_DIR$/ols_functions.py" />
+        <option value="$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py" />
       </list>
     </option>
   </component>
@@ -196,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -314,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552746533844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="replace with dummies moved to functions">
+      <created>1553041513145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553041513145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -701,18 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ols_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0 startup scripts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -739,6 +750,24 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ols_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="929">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
