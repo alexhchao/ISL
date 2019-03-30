@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a93df80-009a-4fa9-860d-b470918ea919" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py" />
+    <list default="true" id="4a93df80-009a-4fa9-860d-b470918ea919" name="Default" comment="added ISL ch6">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ISL.iml" afterPath="$PROJECT_DIR$/.idea/ISL.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb" afterPath="$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diamonds_revisit.py" afterPath="$PROJECT_DIR$/diamonds_revisit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ols_functions.py" afterPath="$PROJECT_DIR$/ols_functions.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,132 +18,116 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4670571">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ISL_part_1.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ISL_part_1.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#67#86#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="diamonds.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/diamonds.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="783">
-                  <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#12#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ISL_ch_5_resampling_methods.ipynb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb">
-              <provider selected="true" editor-type-id="ipnb-editor">
-                <state>
-                  <selected id="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ISL_ch_5_py_code.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ISL_ch_5_py_code.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ISL_ch6_labs.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ISL_ch6_labs.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="0 startup scripts.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/0 startup scripts.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/__init__.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cross_validation.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/cross_validation.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1590">
-                  <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ISL_ch_3_linear_regression.ipynb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ISL_ch_3_linear_regression.ipynb">
-              <provider selected="true" editor-type-id="ipnb-editor">
-                <state>
-                  <selected id="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ISL_ch3_linar_regression_revisit.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="929">
-                  <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#51#70#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-          <file leaf-file-name="ols_functions.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ols_functions.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1107">
-                  <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ols_functions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ols_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#76#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISL_ch_3_linear_regression.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ISL_ch_3_linear_regression.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISL_ch6_labs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ISL_ch6_labs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="42" column="48" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="42" selection-end-column="48" />
+              <folding>
+                <element signature="e#124#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0 startup scripts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0 startup scripts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diamonds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diamonds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#12#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diamonds_revisit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diamonds_revisit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISL_ch3_linar_regression_revisit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#51#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISL_ch_5_py_code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ISL_ch_5_py_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISL_ch_5_resampling_methods.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,16 +149,15 @@
         <option value="$PROJECT_DIR$/ISL_ch_3_linear_regression.ipynb" />
         <option value="$PROJECT_DIR$/ISL_ch6_labs.py" />
         <option value="$PROJECT_DIR$/0 startup scripts.py" />
-        <option value="$PROJECT_DIR$/ols_functions.py" />
         <option value="$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py" />
+        <option value="$PROJECT_DIR$/ols_functions.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1122" />
-    <option name="y" value="-1902" />
-    <option name="width" value="3384" />
-    <option name="height" value="1914" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="657" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,11 +191,10 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -337,21 +323,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1122" y="-1902" width="3384" height="1914" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11060329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.4482023" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1601" y="52" width="1598" height="1695" />
+      <window_info id="Python Console" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.4482023" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1601" y="52" width="1598" height="1695" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -374,13 +361,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/diamonds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISL_ch_8_tree_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-617">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ISL_part_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,7 +414,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#124#143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -421,7 +424,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,7 +456,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,26 +490,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1744">
           <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1175" column="9" lean-forward="true" selection-start-line="1175" selection-start-column="0" selection-end-line="1176" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py" />
     <entry file="file://$PROJECT_DIR$/ISL_part_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,7 +529,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -548,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="6" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +546,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="6" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,7 +594,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,16 +642,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diamonds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#12#30#0" expanded="true" />
           </folding>
@@ -683,7 +666,7 @@
     <entry file="file://$PROJECT_DIR$/ISL_ch_5_resampling_methods.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="6" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -691,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#67#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,31 +681,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ISL_ch_5_py_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="540">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ISL_ch6_labs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0 startup scripts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="42" column="48" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="42" selection-end-column="48" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#124#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,31 +714,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ISL_ch_3_linear_regression.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ols_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <selected id="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ISL_ch3_linar_regression_revisit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#51#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diamonds_revisit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0 startup scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ols_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
           </folding>
         </state>
       </provider>

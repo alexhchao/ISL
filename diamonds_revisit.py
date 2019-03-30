@@ -56,8 +56,10 @@ X_train, X_test , y_train, y_test = train_test_split(X, y,
 # run OLS
 from statsmodels.tools.eval_measures import mse, rmse
 
-X = sm.add_constant(X)
-res = sm.OLS(y, X).fit()
+X_train_const = sm.add_constant(X_train)
+#X_train_const['carat_2'] =  np.pow(X_train_const['carat'],2)
+
+res = sm.OLS(y_train, X_train_const ).fit()
 print(res.summary())
 
 #np.sqrt(mse(res.predict(X_test), y_test))

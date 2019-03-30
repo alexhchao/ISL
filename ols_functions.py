@@ -3,7 +3,7 @@
 # argo
 
 ###################
-# function to use with statsmodels api
+# function to use w
 
 import pandas as pd
 import numpy as np
@@ -21,7 +21,6 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 from statsmodels.regression.linear_model import OLS
 from statsmodels.tools.tools import add_constant
-
 
 def ols_get_coefs(X, y, w=None):
     """
